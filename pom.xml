@@ -27,6 +27,8 @@
         <url/>
     </scm>
     <properties>
+        <!-- Reproducibility study fix, playbook step 2: pin archive timestamps to the pinned commit time. -->
+        <project.build.outputTimestamp>1794675824</project.build.outputTimestamp>
         <java.version>11</java.version>
         <!-- SSTI 漏洞演示：降级 Thymeleaf 到 3.0.12 之前版本，复现经典 viewName 注入 -->
         <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
